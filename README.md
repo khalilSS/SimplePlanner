@@ -11,16 +11,16 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[Description of your app]
+[A simple planner application for college students to stay organized]
 
 ### App Evaluation
 [Evaluation of your app across the following attributes]
-- **Category:**
-- **Mobile:**
-- **Story:**
-- **Market:**
-- **Habit:**
-- **Scope:**
+- **Category: Organization**
+- **Mobile: Android phones exclusively**
+- **Story: Allows users to keep track of assignments, upcoming tests, and make a todo list**
+- **Market: HighSchool and College Students**
+- **Habit:This application is intended to be used everyday**
+- **Scope: Make available on more platforms**
 
 ## Product Spec
 
@@ -28,13 +28,17 @@ Original App Design Project - README Template
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* An assignment tab that displays upcoming assignments and their due dates
+* A to do list tab that allows users to create and edit to do items
+* A tab that includes a Calendar that can be edited to display due dates in a weekly, monthly, and yearly view.
+
+
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
-* ...
+* A reminder alarm when due date are approaching
+* Custom Theme for the app
+* A notes tab for jotting down and saving notes
 
 ### 2. Screen Archetypes
 
