@@ -1,7 +1,7 @@
 Original App Design Project - README Template
 ===
 
-# APP_NAME_HERE
+# SimplePlanner
 
 ## Table of Contents
 1. [Overview](#Overview)
