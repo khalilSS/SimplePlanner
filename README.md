@@ -73,6 +73,8 @@ Evaluation of app across the following attributes:
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="YOUR_WIREFRAME_IMAGE_URL" width=600>
+<img src="Screen Shot 2020-10-25 at 11.14.23 PM.png" width=600>
+
 
 ### [BONUS] Digital Wireframes & Mockups
 
