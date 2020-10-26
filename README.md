@@ -11,10 +11,10 @@ Original App Design Project - README Template
 
 ## Overview
 ### Description
-[A simple planner application for college students to stay organized]
+A simple planner application for college students to stay organized
 
 ### App Evaluation
-[Evaluation of your app across the following attributes]
+Evaluation of app across the following attributes:
 - **Category: Organization**
 - **Mobile: Android phones exclusively**
 - **Story: Allows users to keep track of assignments, upcoming tests, and make a todo list**
@@ -42,29 +42,33 @@ Original App Design Project - README Template
 
 ### 2. Screen Archetypes
 
-* [list first screen here]
-   * [list associated required story here]
-   * ...
-* [list second screen here]
-   * [list associated required story here]
-   * ...
+* Calendar View
+   * user can add event to calendar
+   * user can view calendar by month
+* Assignment View
+   * user can add upcoming assignments to this screen
+   * user can add associated course came and due date to each assignment
+   * user can click on "NEW ASSIGNMENT" button to add assignment
+   * user can remove an assignment after completion by clickin red x next to task
+* To-Do List View
+   * user can add other tasks to to-do list
+   * possible task can include applying to internship, update resume, email a professor, etc
+  
 
 ### 3. Navigation
 
 **Tab Navigation** (Tab to Screen)
 
-* [fill out your first tab]
-* [fill out your second tab]
-* [fill out your third tab]
+* Calendar
+* Assignments
+* To-Do List
 
 **Flow Navigation** (Screen to Screen)
 
-* [list first screen here]
-   * [list screen navigation here]
-   * ...
-* [list second screen here]
-   * [list screen navigation here]
-   * ...
+* No need to log in  or create an account
+* upon launch, open calendar screen
+* from there, user can decide which screen to navigate to using the bottom navigation bar
+
 
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
