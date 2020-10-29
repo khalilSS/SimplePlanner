@@ -82,6 +82,22 @@ Evaluation of app across the following attributes:
 [Add table of models]
 ### Networking
 - [Add list of network requests by screen ]
+  - Home Feed Screen
+      - (Read/GET) Query all posts where user is author
+         ```Java
+         // Run query
+          Cursor cur = null;
+          ContentResolver cr = getContentResolver();
+          Uri uri = Calendars.CONTENT_URI;
+          String selection = "((" + Calendars.ACCOUNT_NAME + " = ?) AND ("
+                                  + Calendars.ACCOUNT_TYPE + " = ?) AND ("
+                                  + Calendars.OWNER_ACCOUNT + " = ?))";
+          String[] selectionArgs = new String[] {"hera@example.com", "com.example",
+                  "hera@example.com"};
+          // Submit the query and get a Cursor object back.
+          cur = cr.query(uri, EVENT_PROJECTION, selection, selectionArgs, null);
+         ```
+
 - [Create basic snippets for each Parse network request]
 - Google Calendar and Google Reminders APIs: https://developer.android.com/guide/topics/providers/calendar-provider
 ## Helpful Links
