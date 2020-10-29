@@ -83,7 +83,7 @@ Evaluation of app across the following attributes:
 ### Networking
 - [Add list of network requests by screen ]
 - [Create basic snippets for each Parse network request]
-- [OPTIONAL: List endpoints if using existing API such as Yelp]
+- Google Calendar and Google Reminders APIs: https://developer.android.com/guide/topics/providers/calendar-provider
 ## Helpful Links
 - [Our Figma](https://www.figma.com/file/veWER1TfYVvqIGnqhXDo3P/SimplePlanner-App?node-id=5%3A2)
 - [Our Git Repository](https://github.com/khalilSS/SimplePlanner.git)
