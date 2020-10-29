@@ -77,7 +77,7 @@ Evaluation of app across the following attributes:
 
 
 ## Schema 
-[This section will be completed in Unit 9]
+
 ### Models
 [Add table of models]
 ### Networking
