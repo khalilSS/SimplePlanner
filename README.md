@@ -79,19 +79,13 @@ Evaluation of app across the following attributes:
 ## Schema 
 
 ### Models
-[Add table of models]
  | Property      | Type     | Description |
    | ------------- | -------- | ------------|
-   | objectId      | String   | unique id for the user post (default field) |
-   | author        | Pointer to User| image author |
-   | image         | File     | image that user posts |
-   | caption       | String   | image caption by author |
-   | commentsCount | Number   | number of comments that has been posted to an image |
-   | likesCount    | Number   | number of likes for the post |
-   | createdAt     | DateTime | date when post is created (default field) |
-   | updatedAt     | DateTime | date when post is last updated (default field) |
+   | objectId      | String   | unique id for the assignment post (default field) |
+   | caption       | String   | assignment name & to do list task |
+   | caption       | String   | class name |
+   
 ### Networking
-- [Add list of network requests by screen ]
   - Home Feed Screen
       - (Read/GET) Query all posts where user is author
          ```Java
@@ -108,7 +102,6 @@ Evaluation of app across the following attributes:
           cur = cr.query(uri, EVENT_PROJECTION, selection, selectionArgs, null);
          ```
 
-- [Create basic snippets for each Parse network request]
 #### [OPTIONAL:] Existing API Endpoints
 - Google Calendar and Google Reminders APIs: https://developer.android.com/guide/topics/providers/calendar-provider
 ## Helpful Links
