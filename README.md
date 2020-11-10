@@ -28,17 +28,17 @@ Evaluation of app across the following attributes:
 
 **Required Must-have Stories**
 
-[ ] An assignment tab that displays upcoming assignments and their due dates.
-[ ] A to do list tab that allows users to create and edit to do items.
-[ ] A tab that includes a Calendar that can be edited to display due dates in a weekly, monthly, and yearly view.
+* [ ] An assignment tab that displays upcoming assignments and their due dates.
+* [ ] A to do list tab that allows users to create and edit to do items.
+* [ ] A tab that includes a Calendar that can be edited to display due dates in a weekly, monthly, and yearly view.
 
 
 
 **Optional Nice-to-have Stories**
 
-[ ] A reminder alarm when due date are approaching.
-[ ] Custom Theme for the app.
-[ ] A notes tab for jotting down and saving notes.
+* [ ] A reminder alarm when due date are approaching.
+* [ ] Custom Theme for the app.
+* [ ] A notes tab for jotting down and saving notes.
 
 ### 2. Screen Archetypes
 
