@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:visibility="visible"
+    tools:visibility="visible">
+
+    <EditText
+        android:id="@+id/etAssignmentName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:background="@null"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Assignment Name"
+        android:inputType="textPersonName"
+        android:text="Chapter 13 Book Notes"
+        android:textSize="23sp"
+        android:visibility="visible"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etClassName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAssignmentName"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="2dp"
+        android:background="@null"
+        android:editable="true"
+        android:ems="10"
+        android:hint="Class Name"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:visibility="visible"
+        tools:text="Biology 101"
+        tools:visibility="visible" />
+
+    <EditText
+        android:id="@+id/etDueDate"
+        android:layout_width="62dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAssignmentName"
+        android:layout_marginStart="129dp"
+        android:layout_marginTop="1dp"
+        android:layout_toEndOf="@+id/etClassName"
+        android:background="@null"
+        android:editable="true"
+        android:ems="10"
+        android:hint="10/24"
+        android:inputType="textPersonName"
+        android:text="Name"
+        android:visibility="visible"
+        tools:text="11/26"
+        tools:visibility="visible" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="374dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etClassName"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp"
+        android:clickable="true"
+        android:max="100"
+        android:visibility="visible" />
+</RelativeLayout>
