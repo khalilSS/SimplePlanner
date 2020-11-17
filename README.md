@@ -31,7 +31,7 @@ Evaluation of app across the following attributes:
 * [ ] An assignment tab that displays upcoming assignments and their due dates.
 * [x] A to do list tab that allows users to create and edit to do items.
 * [x] Display current calendar day in the calendar tab.
-* [ ] A tab that includes a Calendar that can be edited to display due dates in a weekly, monthly, and yearly view.
+* [x] A tab that includes a Calendar that can be edited to display due dates in a weekly, monthly, and yearly view.
 
 
 
@@ -71,6 +71,8 @@ Evaluation of app across the following attributes:
 * upon launch, open calendar screen
 * from there, user can decide which screen to navigate to using the bottom navigation bar
 
+<img src='todo.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='calendar.walkthrough2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 ## Digital Wireframes
 <img src="Screen Shot 2020-10-26 at 4.23.21 PM.png" width=400>
