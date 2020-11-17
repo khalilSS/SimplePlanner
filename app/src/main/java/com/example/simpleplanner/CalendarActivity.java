@@ -1,35 +1,33 @@
 package com.example.simpleplanner;
 
-import android.os.Bundle;
-import android.widget.CalendarView;
-import android.widget.TextView;
-import android.widget.Button;
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
+import android.content.Intent;
+import android.os.Bundle;
+import android.view.View;
+import android.widget.CalendarView;
 
-import org.w3c.dom.Text;
+import java.util.Calendar;
 
 public class CalendarActivity extends AppCompatActivity {
-    private CalendarView calendar;
-    private TextView date_view;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_calendar);
-
+        CalendarView calendar;
 
         calendar = (CalendarView) findViewById(R.id.calendar);
-        date_view = (TextView) findViewById(R.id.date_view);
 
-        calendar.setOnDateChangeListener(new CalendarView.OnDateChangeListener() {
-            @Override
-            public void onSelectedDayChange(@NonNull CalendarView view, int year, int month, int day) {
-                String Date = day + "-" + (month + 1) + "-" + year;
-                date_view.setText(Date);
-
-            }
-        });
-
+    }
+    public void AddCalendarEvent(View view) {
+        Calendar calendarEvent = Calendar.getInstance();
+        Intent i = new Intent(Intent.ACTION_EDIT);
+        i.setType("vnd.android.cursor.item/event");
+        i.putExtra("beginTime", calendarEvent.getTimeInMillis());
+        i.putExtra("allDay", true);
+        i.putExtra("rule", "FREQ=YEARLY");
+        i.putExtra("endTime", calendarEvent.getTimeInMillis() + 60 * 60 * 1000);
+        i.putExtra("title", "Calendar Event");
+        startActivity(i);
     }
 }
