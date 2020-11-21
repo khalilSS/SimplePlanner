@@ -28,11 +28,12 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/header"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="548dp"
-        android:layout_marginEnd="133dp"
+        android:layout_marginTop="546dp"
+        android:layout_marginEnd="17dp"
         android:clickable="true"
         android:enabled="true"
-        android:text="New Assignment" />
+        android:text="Add Assignment"
+        android:textSize="12sp" />
 
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rvAssignments"
@@ -41,7 +42,47 @@
         android:layout_above="@+id/btnNewAssign"
         android:layout_below="@+id/header"
         android:layout_marginTop="2dp"
-        android:layout_marginBottom="-125dp" />
+        android:layout_marginBottom="-500dp" />
+
+    <EditText
+        android:id="@+id/etDueDate"
+        android:layout_width="92dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="9dp"
+        android:layout_marginBottom="78dp"
+        android:layout_toStartOf="@+id/btnNewAssign"
+        android:ems="10"
+        android:hint="Due Date:"
+        android:inputType="textPersonName"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/etCourse"
+        android:layout_width="146dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="78dp"
+        android:layout_toStartOf="@id/etDueDate"
+        android:ems="10"
+        android:hint="Course Name:"
+        android:inputType="textPersonName"
+        android:textSize="13sp" />
+
+    <EditText
+        android:id="@+id/etAssignment"
+        android:layout_width="249dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="153dp"
+        android:layout_marginBottom="123dp"
+        android:ems="10"
+        android:hint="Assignment:"
+        android:inputType="textPersonName"
+        android:textSize="13sp" />
 
 
 </RelativeLayout>
