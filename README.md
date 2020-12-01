@@ -37,7 +37,7 @@ Evaluation of app across the following attributes:
 
 **Optional Nice-to-have Stories**
 
-* [ ] A reminder alarm when due date are approaching.
+* [x] A reminder alarm when due date are approaching.
 * [ ] A progress bar to show how much of an assignment is complete. 
 * [ ] Custom Theme for the app.
 * [ ] A notes tab for jotting down and saving notes.
