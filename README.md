@@ -29,6 +29,7 @@ Evaluation of app across the following attributes:
 **Required Must-have Stories**
 
 * [ ] An assignment tab that displays upcoming assignments and their due dates.
+* [x] User is able to long press on assignments and tasks to remove from screen 
 * [x] A to do list tab that allows users to create and edit to do items.
 * [x] Display current calendar day in the calendar tab.
 * [x] A tab that includes a Calendar that can be edited to display due dates in a weekly, monthly, and yearly view.
@@ -38,7 +39,7 @@ Evaluation of app across the following attributes:
 **Optional Nice-to-have Stories**
 
 * [x] A reminder alarm when due date are approaching.
-* [ ] A progress bar to show how much of an assignment is complete. 
+* [x] A progress bar to show how much of an assignment is complete. 
 * [ ] Custom Theme for the app.
 * [ ] A notes tab for jotting down and saving notes.
 
