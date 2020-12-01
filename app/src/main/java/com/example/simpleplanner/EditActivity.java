@@ -9,6 +9,7 @@ import android.widget.EditText;
 import androidx.appcompat.app.AppCompatActivity;
 
 import com.example.simpleplanner.MainActivity;
+import com.example.simpleplanner.fragments.todo;
 
 import static android.app.Activity.RESULT_OK;
 
@@ -27,7 +28,7 @@ public class EditActivity extends AppCompatActivity {
 
         getSupportActionBar().setTitle("Edit Item");
 
-        etItem.setText(getIntent().getStringExtra(TodoActivity.KEY_ITEM_TEXT));
+        etItem.setText(getIntent().getStringExtra(todo.KEY_ITEM_TEXT));
         //When the user is done editing, they click on the save button
         btnSave.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -35,8 +36,8 @@ public class EditActivity extends AppCompatActivity {
                 //create an intent which will contain the results
                 Intent intent = new Intent();
                 //pass the data results of editing
-                intent.putExtra(TodoActivity.KEY_ITEM_TEXT, etItem.getText().toString());
-                intent.putExtra(TodoActivity.KEY_ITEM_POSITION, getIntent().getExtras().getInt(TodoActivity.KEY_ITEM_POSITION));
+                intent.putExtra(todo.KEY_ITEM_TEXT, etItem.getText().toString());
+                intent.putExtra(todo.KEY_ITEM_POSITION, getIntent().getExtras().getInt(todo.KEY_ITEM_POSITION));
                 //set the result of the intent
                 setResult(RESULT_OK, intent);
                 //finish the activity, close the screen and go back
